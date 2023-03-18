@@ -25,4 +25,5 @@ public class databaseStepDef {
         System.out.println("data type is: " + DBUtil.getCellValue(mainQuery).getClass());
     Assert.assertEquals(DBUtil.getCellValue(mainQuery), new BigDecimal(expectedSalary));
     }
+
 }

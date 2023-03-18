@@ -53,6 +53,7 @@ public class GoRestWithLombok {
     public void goRestCRUDWithLombok() throws JsonProcessingException {
         // Creating a POJO (Bean) object
 
+        //we cannot create an object while using Lombok
         CreateGoRestUserWithLombok createUser = CreateGoRestUserWithLombok
                 // with the help of the Lombok, we are assigning the values to variables
                 //coming from Bean class

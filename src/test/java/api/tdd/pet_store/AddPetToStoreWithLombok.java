@@ -72,6 +72,7 @@ public class AddPetToStoreWithLombok {
                 .status("available")
                 .build();
 
+
         response = RestAssured
                 .given().log().all()
                 .contentType(ContentType.JSON)

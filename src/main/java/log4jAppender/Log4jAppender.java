@@ -5,6 +5,8 @@ import org.apache.logging.log4j.Logger;
 
 public class Log4jAppender {
 
+
+    //Logger comes from Apachi
     static Logger logger = LogManager.getLogger(Log4jAppender.class);
 
     public static void main(String[] args) {
